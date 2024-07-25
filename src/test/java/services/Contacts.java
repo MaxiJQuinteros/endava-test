@@ -93,7 +93,7 @@ public class Contacts extends BaseService {
         token = getAuthToken(userType);
         List<String> contacts = contactListIds(userType);
         if (!contacts.isEmpty()) {
-            for (int i = 0; i <= contacts.size(); i++) {
+            for (int i = 0; i < contacts.size(); i++) {
                 given()
                         .contentType(ContentType.JSON)
                         .header("Authorization", token)

@@ -1,0 +1,13 @@
+{
+  "firstName": "Simba",
+  "lastName": "Cat",
+  "birthdate": "2020-05-03",
+  "email": "simba@fake.com",
+  "phone": "3551555111",
+  "street1": "Discepolo 1122",
+  "street2": "Apartment C",
+  "city": "Cordoba",
+  "stateProvince": "KS",
+  "postalCode": "03512",
+  "country": "USA"
+}

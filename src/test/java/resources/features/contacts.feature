@@ -36,3 +36,14 @@ Feature: Endava contacts test
     Examples:
       | userType | contactName |
       | Beskar   | Cirilla     |
+
+  Scenario Outline: Verify the deletion of all contacts
+    Given I am a "<userType>" user
+    When I add a new contact "<contactName>"
+    When I add a new contact "<contact2Name>"
+    And I delete all contacts
+    And I check the user contact list
+    Then the contact list is empty
+    Examples:
+      | userType | contactName | contact2Name |
+      | Beskar   | Cirilla     | Simba        |

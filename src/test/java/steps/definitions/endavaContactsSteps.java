@@ -1,5 +1,6 @@
 package steps.definitions;
 
+import io.cucumber.java.en.And;
 import io.cucumber.java.en.Given;
 import io.cucumber.java.en.Then;
 import io.cucumber.java.en.When;
@@ -60,6 +61,11 @@ public class endavaContactsSteps {
     @When("I delete a contact {string}")
     public void iDeleteAContact(String contactName) {
         Contacts.deleteContact(userType, contactName);
+    }
+
+    @When("I delete all contacts")
+    public void iDeleteAllContacts() {
+        Contacts.deleteAllContacts(userType);
     }
 
     @After
