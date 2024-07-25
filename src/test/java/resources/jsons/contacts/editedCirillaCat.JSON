@@ -1,0 +1,13 @@
+{
+  "firstName": "Cirillia",
+  "lastName": "TheCat",
+  "birthdate": "2018-05-10",
+  "email": "cirithecat@fake.com",
+  "phone": "3515535555",
+  "street1": "Colon 2211",
+  "street2": "Apartment b",
+  "city": "Santa Fe",
+  "stateProvince": "LA",
+  "postalCode": "54321",
+  "country": "USA"
+}

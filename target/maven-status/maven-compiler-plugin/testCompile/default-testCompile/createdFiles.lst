@@ -1,0 +1,5 @@
+services\Users.class
+services\BaseService.class
+services\Contacts.class
+steps\definitions\endavaContactsSteps.class
+resources\enums\UserTypes.class

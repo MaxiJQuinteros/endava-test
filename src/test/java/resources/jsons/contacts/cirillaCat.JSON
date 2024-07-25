@@ -1,0 +1,13 @@
+{
+  "firstName": "Cirilla",
+  "lastName": "Cat",
+  "birthdate": "2018-01-03",
+  "email": "ciri@fake.com",
+  "phone": "3515555555",
+  "street1": "Colon 1122",
+  "street2": "Apartment A",
+  "city": "Cordoba",
+  "stateProvince": "KS",
+  "postalCode": "12345",
+  "country": "USA"
+}
